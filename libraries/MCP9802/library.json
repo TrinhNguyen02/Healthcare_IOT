@@ -1,0 +1,19 @@
+{
+		"name": "MCP9802",
+		"version": "1.5.0",
+		"frameworks": "AVR",
+		"license": "MIT",
+		"keywords": "MCP9802, SENSOR, TEMPERATURE, I2C, 12-BIT, HYSTERESIS",
+		"description": "MCP9802 Driver (12-BIT Temperature Sensor with I2C Interface)",
+		"downloadUrl": "https://github.com/nadavmatalon/MCP9802/archive/master.zip",
+		"authors":
+		{
+		        "name": "Nadav Matalon",
+		        "maintainer": true
+		},
+		"repository":
+		{
+		    "type": "git",
+		    "url": "https://github.com/NadavMatalon/MCP9802"
+		}
+}

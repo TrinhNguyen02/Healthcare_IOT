@@ -1,0 +1,82 @@
+#######################################
+# Syntax Coloring Map For MCP9802
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MCP9802	KEYWORD1
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+ping	KEYWORD2
+getTemp	KEYWORD2
+getHyst	KEYWORD2
+getLimit	KEYWORD2
+getAlertType	KEYWORD2
+getAlertMode	KEYWORD2
+getFaultQueue	KEYWORD2
+getResolution	KEYWORD2
+getConMode	KEYWORD2
+getTempUnit	KEYWORD2
+setAlertType	KEYWORD2
+setAlertMode	KEYWORD2
+setFaultQueue	KEYWORD2
+setResolution	KEYWORD2
+setConMode	KEYWORD2
+setTempUnit	KEYWORD2
+setHyst	KEYWORD2
+setLimit	KEYWORD2
+reset	KEYWORD2
+singleCon	KEYWORD2
+getComResult	KEYWORD2
+MCP9802ComStr	KEYWORD2
+MCP9802InfoStr	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+DEFAULT_CONFIG	LITERAL1
+DEFAULT_HYST	LITERAL1
+DEFAULT_HYST	LITERAL1
+MIN_CON_TIME	LITERAL1
+CONFIG_BYTE	LITERAL1
+DATA_BYTES	LITERAL1
+C_TO_F_CONST	LITERAL1
+INIT_SINGLE_SHOT	LITERAL1
+COMP	LITERAL1
+INT	LITERAL1
+ACTIVE_LOW	LITERAL1
+ACTIVE_HIGH	LITERAL1
+FQ1	LITERAL1
+FQ2	LITERAL1
+FQ4	LITERAL1
+FQ6	LITERAL1
+RES_9	LITERAL1
+RES_10	LITERAL1
+RES_11	LITERAL1
+RES_12	LITERAL1
+CONT	LITERAL1
+SINGLE	LITERAL1
+CELSIUS	LITERAL1
+FAHRENHEIT	LITERAL1
+
+#######################################
+# Built-In Variables (LITERAL2)
+#######################################
+
+ptr_t	LITERAL2
+alert_type_t	LITERAL2
+alert_mode_t	LITERAL2
+fault_queue_t	LITERAL2
+resolution_t	LITERAL2
+con_mode_t	LITERAL2
+temp_unit_t	LITERAL2

@@ -35,7 +35,7 @@ int coi = D8;
 void setup() {
   Serial.begin(9600);
 
-  //---------------------------------------
+  //--------------------------------------- Connect to wifi
   Serial.println("Connecting to ");
   Serial.println(ssid);
 
@@ -57,6 +57,7 @@ void setup() {
     dht.readTemperature();
     dht.readHumidity();
     
+    // config cho man hinh OLED
     if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {  
       Serial.println("SSD1306 allocation failed");
     }
@@ -69,7 +70,7 @@ void setup() {
     display.setTextSize(1);
     pinMode(coi,OUTPUT);
 
-
+  // config MAX30100
   Serial.print("Initializing pulse oximeter..");
   if (!pox.begin()) {
     Serial.println("FAILED");
